@@ -1,7 +1,7 @@
 header {
 	width:100%; /* Establecemos que el header abarque el 100% del documento */
 	overflow:hidden; /* Eliminamos errores de float */
-	background:#252932;
+	background:#737373;
 	margin-bottom:20px;
 }
 
@@ -40,4 +40,69 @@ header nav a {
 header nav a:hover {
 	background:#f56f3a;
 	border-radius:50px;
+}
+
+.header2 {
+	position: fixed;
+	height:100px;
+}
+
+.header2 .logo {
+	line-height:100px;
+	font-size:30px;
+}
+
+.header2 nav {
+	line-height:100px;
+}
+
+@media screen and (max-width: 950px) {
+	header .logo,
+	header nav {
+		width:100%;
+		text-align:center; /*Centramos el menu y el logotipo*/
+		line-height:100px;
+	}
+
+	.header2 {
+		height:auto;
+	}
+
+	.header2 .logo,
+	.header2 nav {
+		line-height:50px;
+	}
+}
+
+body {
+	/*background-image: url("https://carontestudio.com/img/caronte-web-estudio-logo.png");*/
+	background-image: url("FondoDePantalla.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+  }
+
+.imgRedonda {
+    width:200px;
+    height:250px;
+    border-radius:150px;
+	border:10px solid #666;
+}
+
+.text {
+    width: 200px;
+    height: 100px;
+    background-color: transparent;
+    padding: 10px;
+    color: #000000;
+    position: absolute;
+    z-index: 1;
+}
+
+.background {
+    width: 200px;
+    height: 50px;
+    background-color: #737373;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
 }
