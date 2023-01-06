@@ -76,7 +76,7 @@ header nav a:hover {
 
 body {
 	/*background-image: url("https://carontestudio.com/img/caronte-web-estudio-logo.png");*/
-	background-image: url("FondoDePantalla.jpg");
+	background-color: rgb(144, 144, 144);    /*url("FondoDePantalla.jpg");*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -86,7 +86,12 @@ body {
     width:200px;
     height:250px;
     border-radius:150px;
-	border:10px solid #666;
+	border:10px solid black;
+}
+
+.descripcion{
+	float: right;
+	width: 80%;
 }
 
 .text {
@@ -97,6 +102,7 @@ body {
     color: #000000;
     position: absolute;
     z-index: 1;
+	margin-left: 10px;
 }
 
 .background {

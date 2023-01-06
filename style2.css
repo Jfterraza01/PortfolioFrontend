@@ -1,0 +1,40 @@
+/* PARA MENU HORIZONTAL */ 
+.uno ul li a{
+    text-decoration: none;
+    color: #666;
+    font-family: Arial;
+}
+
+.uno li ul li{
+    margin-left: -40px;
+}
+
+.dos > li{
+    font-weight: 300;
+    list-style: none;
+}
+
+.dos > li > a:hover{
+    color: white;
+    margin-left: 10px;
+}
+
+.uno > li{
+    list-style: none;
+    width: 100px;
+    height: 20px;
+    overflow: hidden;
+    font-weight: 600;
+}
+
+.uno > li:hover{
+    height: auto; 
+}
+
+
+.mimenu{
+    background-color: #ccc;
+    overflow: hidden;
+} 
+
+
