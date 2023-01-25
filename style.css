@@ -22,12 +22,16 @@ header {
 }
 
 header .logo {
-	float: left;
+	color:#f2f2f2;
+	font-size:2.2rem;
+	line-height:150px;
+	float:left;
+	font-style: italic;
 }
 
 header nav{
 	float: right;
-	line-height: 200px;
+	line-height: 150px;
 }
 
 header nav a{
@@ -53,7 +57,8 @@ header nav a:hover{
 }
 
 .header2 .logo {
-	visibility: hidden;
+	line-height:100px;
+	font-size:30px;
 }
 
 .header2 nav {
@@ -74,7 +79,6 @@ header nav a:hover{
 
 	.header2 .logo{
 		line-height:50px;
-		visibility: visible;
 	}
 	.header2 nav {
 		line-height:50px;
@@ -93,21 +97,140 @@ header nav a:hover{
 	width: 80%;
 }
 
-.text {
-    width: 200px;
-    height: 100px;
-    background-color: transparent;
-    padding: 10px;
-    color: #000000;
-    position: absolute;
-    z-index: 1;
-	margin-left: 10px;
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2.5rem;
+	max-width: 68.75rem;
+	margin: auto;
 }
 
-.background {
-    width: 200px;
-    height: 50px;
-    background-color: #737373;
-    padding: 10px;
-    margin: 0px 0px 10px 0px;
+.hero-img {
+	width:20rem;
+    height:24rem;
+    border-radius:150px;
+	border:10px solid black;
 }
+
+.bio {
+	width: 25rem;
+	padding: 0.625rem;
+	border-radius: 6px;
+	box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+  
+.bio-titulo{
+	margin-bottom: var(--bottom-margin);
+}
+  
+.bio-texto{
+	line-height: var(--line-height);
+	padding: 0.3rem 0;
+}
+
+.mas-sobre {
+	background-color: var(--bg-color);
+	padding: 1rem 6rem;
+}
+  
+.mas-titulo {
+	margin-bottom: var(--bottom-margin);
+	text-align: center;
+}
+  
+.mas-texto {
+	line-height: var(--line-height);
+	padding: 0.4rem;
+	text-align: center;
+}
+
+.habilidades {
+	max-width: 68.75rem;
+	margin: auto;
+	text-align: center;
+	margin-top: 2.5rem;
+}
+  
+.header-habilidades {
+	margin-bottom: 1rem;
+}
+  
+.contenedor-habilidades img{
+	padding: 1.25rem;
+}
+  
+.icon {
+	width: 11.875rem;
+	height: 11.25rem;
+}
+
+.icon-card {
+	background-color: #d9d9d9;
+	border-radius: 11px;
+	box-shadow: 0 3px 10px var(--secondary-shadow);
+	padding: 20px;
+	margin: 10px;
+}
+
+.proyectos {
+	background-color: var(--bg-color);
+	padding: 32px 0;
+	margin-top: 2rem;
+  }
+  
+.foto-de-proyecto{
+	width: 55%;
+	height: 50%;
+}
+  
+.contenedor-de-proyectos{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: auto;
+	padding: 2rem;
+}
+
+.titulo-de-proyectos{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.contenedor-de-proyectos p {
+	padding: 0.4rem;
+  }
+  
+.titulo-de-proyectos{
+	margin-bottom: var(--bottom-margin);
+}
+  
+.detalles-de-proyectos{
+	margin-bottom: var(--bottom-margin);
+ }
+  
+.tarjeta-de-proyectos{
+	background-color: #d9d9d9;
+	border-radius: 11px;
+	box-shadow: 0 3px 10px var(--primary-shadow);
+	padding: 20px;
+	margin: 10px;
+}
+
+.contacto {
+	margin-top: 2rem;
+  }
+  
+  .contacto h2 {
+	text-align: center;
+	margin-bottom: var(--bottom-margin-2);
+  }
+  
+  .contenedor-formulario-contacto {
+	max-width: 40.75rem;
+	margin: 0 auto;
+	padding: 0.938rem;
+	border-radius: 5px;
+	box-shadow: 0 3px 10px var(--secondary-shadow);
+  }
