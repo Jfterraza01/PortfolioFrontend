@@ -284,15 +284,19 @@ header nav a:hover{
 	cursor: pointer;
   }
 
-  .scroll-up {
-	padding:1rem;
-	cursor:pointer;
-	position: fixed;
-	bottom: 3%;
-	right: 0.5%;
+  .socicon {
+	width: 2rem;
+	height: 2rem;
   }
 
-  .flecha-arriba {
+  .scroll-up {
+	position: fixed;
+	right: 0.5%;
+	bottom: 3%;
+	cursor: pointer;
+  }
+
+  .up-arrow {
 	width: 3rem;
 	height: 3rem;
   }
