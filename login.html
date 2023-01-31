@@ -22,13 +22,14 @@
         <img src="images/IconoPersona.png" alt="user-login">
         <p class="text">Bienvenido José</p>
         <form class="login-form">
-            <input type="text" placeholder="Nombre de Usuario">
-            <input type="password" placeholder="Contraseña">
-            <button>Iniciar Sesion</button>
+            <input id="usuario" type="text" placeholder="Nombre de Usuario">
+            <input id="contrasena" type="password" placeholder="Contraseña">
+            <button id="boton" class="boton" onclick="login()">Iniciar Sesion</button>
         </form>
         <div class="volver-al-inicio">
             <a href="index.html">Menu Principal</a>
         </div>    
     </div>
+    <script src="headerLogin.js"></script>
 </body>
 </html>
