@@ -1,3 +1,4 @@
+// funcionalidad que permite que el header se haga grande o diminuto
 $(document).ready(function(){
 
 	$(window).scroll(function(){

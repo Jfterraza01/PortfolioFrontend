@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background: #fffffa;
 }
@@ -278,4 +282,24 @@ header nav a:hover{
 	background-color: blue;
 	border: 2px solid var(blue);
 	cursor: pointer;
+  }
+
+  .scroll-up {
+	padding:1rem;
+	cursor:pointer;
+	position: fixed;
+	bottom: 3%;
+	right: 0.5%;
+  }
+
+  .flecha-arriba {
+	width: 3rem;
+	height: 3rem;
+  }
+
+  footer {
+	background-color: #fff;
+	padding: 1.25rem;
+	text-align: center;
+	margin: 2rem 0 0;
   }
